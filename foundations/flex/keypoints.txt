@@ -1,0 +1,36 @@
+
+box sizing:
+
+box-sizing: 
+ border-box;
+
+
+display:
+ inline;
+ block;
+ inline-block;
+ flex;
+
+flex-direction:
+ view_column
+ row;
+
+flex:
+- initial
+- none;
+- auto;
+- <positive_int>;
+- x x (unit);
+
+justify-content:
+ space-between;
+ center;
+
+align-items:
+ center;
+
+gap:
+ integer;
+
+
+
