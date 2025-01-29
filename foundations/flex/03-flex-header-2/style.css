@@ -2,6 +2,10 @@
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
+/* * {
+  border: 2px solid red;
+} */
+
 body {
   margin: 0;
   background: #eee;
@@ -12,6 +16,17 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .profile-image {
@@ -45,4 +60,21 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.links {
+  display: flex;
+  gap: 16px;
+
+}
+
+.button-group {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: center;
 }
