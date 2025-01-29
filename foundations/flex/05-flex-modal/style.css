@@ -20,6 +20,41 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 14px;
+  display: flex;
+  /* min-width: auto; */
+  gap: 10px;
+  align-items: start;
+}
+
+.row {
+  margin: 6px;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 900;
+  align-items: baseline;
+  font-size: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-shrink: 3;
+
+
+}
+
+.button-group {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
 }
 
 .icon {
@@ -33,6 +68,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
