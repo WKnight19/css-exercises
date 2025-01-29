@@ -1,14 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* * {
+  border: 2px solid red;
+} */
+
 body {
   height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 img {
   width: 600px;
+  max-width: 100%;
+  flex: auto;
 }
 
 button {
@@ -24,3 +34,84 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* background-color: lightgrey; */
+/* 
+  border-bottom:#eeeeee 1px solid;
+  box-shadow: 0px 0px 5px 0px #0d0d0d;
+  border-bottom-style: outset;
+  border-width: 3px; */
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+  padding: 0 12px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+
+/* CONTENT */
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+
+  flex: 1;
+  padding: 5px;
+  max-height: 40%;
+  min-height: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.buttons button {
+  padding: 8px;
+  border-radius: 15px;
+
+}
+
+
+
+
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  width: 100%;
+
+  background-color: #eeeeee;
+  border-top:#8f8d8d 5px solid;
+  box-shadow: 0px 0px 5px 0px #000000;
+  border-top-style: outset;
+  border-width: 1px;
+
+  flex-shrink: 0;
+
+
+}
+
