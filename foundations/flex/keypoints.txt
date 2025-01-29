@@ -25,9 +25,18 @@ flex:
 justify-content:
  space-between;
  center;
+ space-evenly;
+ space-around;
 
 align-items:
  center;
+ flex-start;
+ flex-end;
+ baseline;
+ stretch;
+
+align-self:
+ same cross axis values but applies to child, not container.
 
 gap:
  integer;
